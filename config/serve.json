@@ -1,0 +1,6 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/core-build/serve.schema.json",
+  "port": 4321,
+  "https": true,
+  "initialPage": "https://devadmintools.sharepoint.com/sites/MoldovaCSD/_layouts/15/workbench.aspx"
+}

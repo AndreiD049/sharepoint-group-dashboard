@@ -1,0 +1,13 @@
+@import '~office-ui-fabric-react/dist/sass/References.scss';
+
+:global(.panel-footer) {
+	display: flex;
+	flex-flow: row nowrap;
+	align-items: center;
+	justify-content: flex-start;
+	padding: 16px 8px;
+
+	button {
+		margin: 0 8px;
+	}
+}

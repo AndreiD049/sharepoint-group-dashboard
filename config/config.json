@@ -1,0 +1,18 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "group-dashboard-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/groupDashboard/GroupDashboardWebPart.js",
+          "manifest": "./src/webparts/groupDashboard/GroupDashboardWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "GroupDashboardWebPartStrings": "lib/webparts/groupDashboard/loc/{locale}.js"
+  }
+}
